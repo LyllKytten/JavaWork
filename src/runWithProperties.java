@@ -1,26 +1,6 @@
-import java.util.Locale;
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.Scanner;
-import java.util.List;
+import java.util.*;
 
 public class runWithProperties {
-    public static Integer[] addNumber(Integer[] arr, int x) {
-        List<Integer> list = new ArrayList<>(Arrays.asList(arr));
-
-        list.add(x);
-
-        return list.toArray(arr);
-    }
-
-    public static void arrayTest() {
-        Integer[] arr = {1, 2, 3};
-
-        arr = addNumber(arr, 4);
-
-        System.out.println(Arrays.toString(arr));
-    }
-
     public static void main(String[] args) {
         boolean withError = false;
         try {
@@ -37,7 +17,5 @@ public class runWithProperties {
         } catch (Exception error) {
             withError = true;
         }
-
-
     }
 }
