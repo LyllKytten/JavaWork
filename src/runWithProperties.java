@@ -2,7 +2,7 @@ import java.util.*;
 
 public class runWithProperties {
     public static void main(String[] args) {
-        boolean withError = false;
+        boolean withProps = false;
         try {
             if (args != null) {
                 for (String obj : args) {
@@ -15,7 +15,13 @@ public class runWithProperties {
                 }
             }
         } catch (Exception error) {
-            withError = true;
+            withProps = true; //work only for linux
+        }
+
+        if (withProps) {
+            System.out.print("Program runned without any props");
+        } else {
+            System.out.print("Program runned with any props");
         }
     }
 }
