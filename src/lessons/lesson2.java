@@ -1,3 +1,5 @@
+package lessons;
+
 public class lesson2 {
     public static void main(String[] args) {
         int a = 1; // 5 / 2 = 2.5 = 2
