@@ -2,7 +2,7 @@ package lessons;
 
 import java.util.Scanner;
 
-public class classWork {
+public class switchif {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         byte day;

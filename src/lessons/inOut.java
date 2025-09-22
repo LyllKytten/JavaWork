@@ -2,7 +2,7 @@ package lessons;
 
 import java.util.Scanner;
 
-public class lesson3 {
+public class inOut {
     public static void main(String[] args) {
         System.out.println("line1"); // asdasd
         System.out.println("line2"); // asdasd

@@ -1,6 +1,6 @@
 package lessons;
 
-public class lesson4 {
+public class mathFunc {
     public static void main(String[] args) {
         int a = 8;
         int b = 5;

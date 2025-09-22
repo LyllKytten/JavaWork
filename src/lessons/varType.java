@@ -1,6 +1,6 @@
 package lessons;
 
-public class lesson2 {
+public class varType {
     public static void main(String[] args) {
         int a = 1; // 5 / 2 = 2.5 = 2
         double d = 2.0; // 5 / 2 = 2.5
